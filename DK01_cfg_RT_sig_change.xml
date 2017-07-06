@@ -1,0 +1,2582 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<cfg_RT_sig_change>
+<array name="cfg_info">
+        <key name="Custom">Dearcc</key>
+        <key name="Project">DK01</key>
+        <key name="DBC_version">215</key>
+        <key name="usage_situation">Running/charging</key>
+        <key name="report_type">change_signal</key>
+        <key name="cfg_file_name">DK01_cfg_RT_sig_change</key>
+        <key name="cfg_version">DK01.215.02</key>
+        <key name="cfg_author">Li Xiaoqin</key>
+        <key name="publish_date">2017/02/23</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">6</key>
+			<key name="sig_id">1</key>
+			<key name="sig_name">ABS_Active</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">6</key>
+			<key name="sig_id">2</key>
+			<key name="sig_name">ABS_EBDWarmingLamp</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">6</key>
+			<key name="sig_id">3</key>
+			<key name="sig_name">ABS_ABSWarmingLamp</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">8</key>
+			<key name="sig_id">1</key>
+			<key name="sig_name">ACU_WarningLampACU</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">2000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">8</key>
+			<key name="sig_id">2</key>
+			<key name="sig_name">ACU_FireStatusACU</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">2000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">12</key>
+			<key name="sig_id">20</key>
+			<key name="sig_name">BCM_Trunk_Sts</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">2000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">12</key>
+			<key name="sig_id">1</key>
+			<key name="sig_name">BCM_PositionLight_Sts</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">2000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">12</key>
+			<key name="sig_id">2</key>
+			<key name="sig_name">BCM_TurnLight_Sts</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">2000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">12</key>
+			<key name="sig_id">3</key>
+			<key name="sig_name">BCM_High_Low_Beam_Sts</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">2000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">12</key>
+			<key name="sig_id">4</key>
+			<key name="sig_name">BCM_AntiThelf_Sts</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">2000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">12</key>
+			<key name="sig_id">5</key>
+			<key name="sig_name">BCM_LF_Door_Sts</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">2000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">12</key>
+			<key name="sig_id">6</key>
+			<key name="sig_name">BCM_RF_Door_Sts</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">2000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">12</key>
+			<key name="sig_id">7</key>
+			<key name="sig_name">BCM_LR_Door_Sts</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">2000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">12</key>
+			<key name="sig_id">8</key>
+			<key name="sig_name">BCM_RR_Door_Sts</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">2000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">12</key>
+			<key name="sig_id">9</key>
+			<key name="sig_name">BCM_FrontLeftWindows_Sts</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">2000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">12</key>
+			<key name="sig_id">10</key>
+			<key name="sig_name">BCM_FrontRightWindows_Sts</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">2000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">12</key>
+			<key name="sig_id">11</key>
+			<key name="sig_name">BCM_RearLeftWindows_Sts</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">2000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">12</key>
+			<key name="sig_id">12</key>
+			<key name="sig_name">BCM_RearRightWindows_Sts</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">2000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">12</key>
+			<key name="sig_id">13</key>
+			<key name="sig_name">BCM_RearFogSwitch_Sts</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">2000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">12</key>
+			<key name="sig_id">14</key>
+			<key name="sig_name">BCM_RKE_Sts</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">2000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">12</key>
+			<key name="sig_id">15</key>
+			<key name="sig_name">BCM_REK_Trunk_Sts</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">2000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">12</key>
+			<key name="sig_id">16</key>
+			<key name="sig_name">BCM_PositionLight_F</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">12</key>
+			<key name="sig_id">17</key>
+			<key name="sig_name">BCM_Daylight_F</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">12</key>
+			<key name="sig_id">18</key>
+			<key name="sig_name">BCM_LeftTurnLight_F</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">12</key>
+			<key name="sig_id">19</key>
+			<key name="sig_name">BCM_RightTurnLight_F</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">1</key>
+			<key name="sig_name">BMS_PackU</key>
+			<key name="factor">0.1</key>
+			<key name="offset">0</key>
+			<key name="cycle">5000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">2</key>
+			<key name="sig_name">BMS_PackI</key>
+			<key name="factor">0.1</key>
+			<key name="offset">-500</key>
+			<key name="cycle">5000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">3</key>
+			<key name="sig_name">BMS_PackSoc</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">5000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">5</key>
+			<key name="sig_name">BMS_AlmLv</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">6</key>
+			<key name="sig_name">BMS_State</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">2000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">7</key>
+			<key name="sig_name">BMS_PackSoh</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">9</key>
+			<key name="sig_name">BMS_Insulation_R</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">8</key>
+			<key name="sig_name">BMS_BalanceSts</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">11</key>
+			<key name="sig_name">BMS_ChrRemainMin</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">12</key>
+			<key name="sig_name">BMS_ChrRequestI</key>
+			<key name="factor">0.1</key>
+			<key name="offset">0</key>
+			<key name="cycle">5000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">13</key>
+			<key name="sig_name">BMS_ChrFastState</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">2000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">14</key>
+			<key name="sig_name">BMS_ChrSlowState</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">2000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">16</key>
+			<key name="sig_name">BMS_MaxCellNo</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">17</key>
+			<key name="sig_name">BMS_MaxCellU</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">18</key>
+			<key name="sig_name">BMS_MinCellNo</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">19</key>
+			<key name="sig_name">BMS_MinCellU</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">21</key>
+			<key name="sig_name">BMS_MaxTempNo</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">22</key>
+			<key name="sig_name">BMS_MaxTemp</key>
+			<key name="factor">1</key>
+			<key name="offset">-40</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">23</key>
+			<key name="sig_name">BMS_MinTempNo</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">24</key>
+			<key name="sig_name">BMS_MinTemp</key>
+			<key name="factor">1</key>
+			<key name="offset">-40</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">175</key>
+			<key name="sig_name">BMS_CCTemp1</key>
+			<key name="factor">1</key>
+			<key name="offset">-40</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">176</key>
+			<key name="sig_name">BMS_CCTemp2</key>
+			<key name="factor">1</key>
+			<key name="offset">-40</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">26</key>
+			<key name="sig_name">BMS_DischargeInstantPower</key>
+			<key name="factor">0.5</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">27</key>
+			<key name="sig_name">BMS_AlmOV</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">5000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">28</key>
+			<key name="sig_name">BMS_AlmUV</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">5000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">29</key>
+			<key name="sig_name">BMS_AlmOT</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">5000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">30</key>
+			<key name="sig_name">BMS_AlmUT</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">5000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">31</key>
+			<key name="sig_name">BMS_AlmDV</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">32</key>
+			<key name="sig_name">BMS_AlmDT</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">33</key>
+			<key name="sig_name">BMS_AlmOBV</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">5000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">34</key>
+			<key name="sig_name">BMS_AlmUBV</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">5000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">35</key>
+			<key name="sig_name">BMS_AlmDschOcs</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">36</key>
+			<key name="sig_name">BMS_AlmChrgOcs</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">37</key>
+			<key name="sig_name">BMS_AlmDschOct</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">38</key>
+			<key name="sig_name">BMS_AlmChrgOct</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">39</key>
+			<key name="sig_name">BMS_AlmOffline</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">40</key>
+			<key name="sig_name">BMS_AlmBsu</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">41</key>
+			<key name="sig_name">BMS_AlmIso</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">5000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">42</key>
+			<key name="sig_name">BMS_AlmRelay</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">43</key>
+			<key name="sig_name">BMS_AlmBmu</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">44</key>
+			<key name="sig_name">BMS_AlmVcu</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">45</key>
+			<key name="sig_name">BMS_AlmHV</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">46</key>
+			<key name="sig_name">BMS_AlmSenseCurr</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">47</key>
+			<key name="sig_name">BMS_AlmSenseCell</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">48</key>
+			<key name="sig_name">BMS_AlmSenseTemp</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">49</key>
+			<key name="sig_name">BMS_AlmError</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">195</key>
+			<key name="sig_name">BMS_AlmSOC</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">51</key>
+			<key name="sig_name">BMS_Mismatch</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">5000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">178</key>
+			<key name="sig_name">BMS_VCUOffline_F</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">179</key>
+			<key name="sig_name">BMS_SOCOverHigh</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">180</key>
+			<key name="sig_name">BMS_CellVol_DevOverHigh</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">5000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">181</key>
+			<key name="sig_name">BMS_BattOverCharge</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">5000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">182</key>
+			<key name="sig_name">BMS_SOCSkip</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">5000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">5</key>
+			<key name="sig_id">1</key>
+			<key name="sig_name">COMP_StartSts_F</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">2</key>
+			<key name="sig_id">1</key>
+			<key name="sig_name">DCDC_OutputUnderVoltage_F</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">2</key>
+			<key name="sig_id">2</key>
+			<key name="sig_name">DCDC_OutputOverVoltage_F</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">2</key>
+			<key name="sig_id">3</key>
+			<key name="sig_name">DCDC_InputUnderVoltage_F</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">2</key>
+			<key name="sig_id">4</key>
+			<key name="sig_name">DCDC_InputOverVoltage_F</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">2</key>
+			<key name="sig_id">5</key>
+			<key name="sig_name">DCDC_Hardware_F</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">2</key>
+			<key name="sig_id">6</key>
+			<key name="sig_name">DCDC_OperatingMode</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">2</key>
+			<key name="sig_id">7</key>
+			<key name="sig_name">DCDC_InputOverCurrent_F</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">2</key>
+			<key name="sig_id">8</key>
+			<key name="sig_name">DCDC_OverTemperature_F</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">2</key>
+			<key name="sig_id">9</key>
+			<key name="sig_name">DCDC_COMOvertime_F</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">2</key>
+			<key name="sig_id">10</key>
+			<key name="sig_name">DCDC_RealTemperature</key>
+			<key name="factor">1</key>
+			<key name="offset">-40</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">7</key>
+			<key name="sig_id">1</key>
+			<key name="sig_name">EPS_F</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">10</key>
+			<key name="sig_id">1</key>
+			<key name="sig_name">HU_StopAlarm</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">2000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">10</key>
+			<key name="sig_id">2</key>
+			<key name="sig_name">HU_DoorControl</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">2000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">10</key>
+			<key name="sig_id">3</key>
+			<key name="sig_name">HU_TrunkUnlock</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">2000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">10</key>
+			<key name="sig_id">4</key>
+			<key name="sig_name">HU_COMP_Control_Cool</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">2000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">10</key>
+			<key name="sig_id">5</key>
+			<key name="sig_name">HU_Hazard_Control</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">2000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">10</key>
+			<key name="sig_id">6</key>
+			<key name="sig_name">HU_Horn_Control</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">2000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">10</key>
+			<key name="sig_id">7</key>
+			<key name="sig_name">HU_RemoteCharge</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">2000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">10</key>
+			<key name="sig_id">8</key>
+			<key name="sig_name">HU_COMP_Control_Warn</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">2000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">10</key>
+			<key name="sig_id">14</key>
+			<key name="sig_name">HU_PowerRecycle</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">2000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">10</key>
+			<key name="sig_id">9</key>
+			<key name="sig_name">HU_WorkModeCMD</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">2000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">10</key>
+			<key name="sig_id">10</key>
+			<key name="sig_name">HU_PowerOn_Req</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">2000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">10</key>
+			<key name="sig_id">11</key>
+			<key name="sig_name">HU_TimeSyncSts</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">2000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">10</key>
+			<key name="sig_id">16</key>
+			<key name="sig_name">HU_FastChargeMode</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">2000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">10</key>
+			<key name="sig_id">15</key>
+			<key name="sig_name">HU_ECOmode</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">2000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">10</key>
+			<key name="sig_id">13</key>
+			<key name="sig_name">HU_AudioSA</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">2000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">9</key>
+			<key name="sig_id">1</key>
+			<key name="sig_name">ICM_ODOTotal</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">9</key>
+			<key name="sig_id">2</key>
+			<key name="sig_name">ICM_Seatbelt_Sts</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">2000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">9</key>
+			<key name="sig_id">3</key>
+			<key name="sig_name">ICM_LowBrakeFluidLevel</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">9</key>
+			<key name="sig_id">4</key>
+			<key name="sig_name">ICM_ParkBrake</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">9</key>
+			<key name="sig_id">5</key>
+			<key name="sig_name">ICM_Error_Sts</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">4</key>
+			<key name="sig_id">1</key>
+			<key name="sig_name">MCU_MotorSpeed</key>
+			<key name="factor">0.5</key>
+			<key name="offset">-12000</key>
+			<key name="cycle">5000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">4</key>
+			<key name="sig_id">2</key>
+			<key name="sig_name">MCU_ControllerTorque</key>
+			<key name="factor">0.05</key>
+			<key name="offset">-300</key>
+			<key name="cycle">5000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">4</key>
+			<key name="sig_id">3</key>
+			<key name="sig_name">MCU_ControllerTorqueValid</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">5000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">4</key>
+			<key name="sig_id">4</key>
+			<key name="sig_name">MCU_MotorSpeedValid</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">5000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">4</key>
+			<key name="sig_id">6</key>
+			<key name="sig_name">MCU_DC_linkVoltage</key>
+			<key name="factor">0.05</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">4</key>
+			<key name="sig_id">7</key>
+			<key name="sig_name">MCU_DC_linkCurrent</key>
+			<key name="factor">0.05</key>
+			<key name="offset">-512</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">4</key>
+			<key name="sig_id">8</key>
+			<key name="sig_name">MCU_InverterTemp</key>
+			<key name="factor">1</key>
+			<key name="offset">-48</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">4</key>
+			<key name="sig_id">9</key>
+			<key name="sig_name">MCU_MotorTemp</key>
+			<key name="factor">1</key>
+			<key name="offset">-48</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">4</key>
+			<key name="sig_id">10</key>
+			<key name="sig_name">MCU_Mode</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">4</key>
+			<key name="sig_id">12</key>
+			<key name="sig_name">MCU_FaultLevel1</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">4</key>
+			<key name="sig_id">13</key>
+			<key name="sig_name">MCU_FaultLevel2</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">4</key>
+			<key name="sig_id">14</key>
+			<key name="sig_name">MCU_FaultLevel3</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">4</key>
+			<key name="sig_id">15</key>
+			<key name="sig_name">MCU_SelfCheck_F</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">4</key>
+			<key name="sig_id">16</key>
+			<key name="sig_name">MCU_TM_TempSensor_F</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">4</key>
+			<key name="sig_id">17</key>
+			<key name="sig_name">MCU_TMI_TempSensor_F</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">4</key>
+			<key name="sig_id">18</key>
+			<key name="sig_name">MCU_PhaseOverCurrent_F</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">4</key>
+			<key name="sig_id">19</key>
+			<key name="sig_name">MCU_DC_linkOverCurrent_F</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">4</key>
+			<key name="sig_id">20</key>
+			<key name="sig_name">MCU_IGTB_F</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">4</key>
+			<key name="sig_id">21</key>
+			<key name="sig_name">MCU_MotorPositionSensor_F</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">4</key>
+			<key name="sig_id">22</key>
+			<key name="sig_name">MCU_DC_linkOverVoltage_F</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">4</key>
+			<key name="sig_id">23</key>
+			<key name="sig_name">MCU_DC_linkUnderVoltage_F</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">4</key>
+			<key name="sig_id">24</key>
+			<key name="sig_name">MCU_MotorOverTemp_F</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">4</key>
+			<key name="sig_id">25</key>
+			<key name="sig_name">MCU_Inverter_F</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">4</key>
+			<key name="sig_id">26</key>
+			<key name="sig_name">MCU_SensorVoltage_F</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">4</key>
+			<key name="sig_id">27</key>
+			<key name="sig_name">MCU_InverterOverTemp_F</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">4</key>
+			<key name="sig_id">28</key>
+			<key name="sig_name">MCU_MotorOverSpeed_F</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">4</key>
+			<key name="sig_id">29</key>
+			<key name="sig_name">A_phase_OverCurrentWarning</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">4</key>
+			<key name="sig_id">30</key>
+			<key name="sig_name">C_phase_OverCurrentWarning</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">4</key>
+			<key name="sig_id">31</key>
+			<key name="sig_name">MCU_MotorTemperatureWarning</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">4</key>
+			<key name="sig_id">32</key>
+			<key name="sig_name">MCU_InverterTemperatureWarning</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">4</key>
+			<key name="sig_id">33</key>
+			<key name="sig_name">MCU_Rx_CAN_F</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">4</key>
+			<key name="sig_id">34</key>
+			<key name="sig_name">MCU_LV_PowerSupply_F</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">4</key>
+			<key name="sig_id">35</key>
+			<key name="sig_name">MCU_Safety_F</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">4</key>
+			<key name="sig_id">36</key>
+			<key name="sig_name">MCU_ModeError</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">4</key>
+			<key name="sig_id">37</key>
+			<key name="sig_name">MCU_GateDriverVoltageSupply_F</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">4</key>
+			<key name="sig_id">38</key>
+			<key name="sig_name">MCU_DC_linkOverCurrentwarning</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">4</key>
+			<key name="sig_id">40</key>
+			<key name="sig_name">MCUWorkSts</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">13</key>
+			<key name="sig_id">1</key>
+			<key name="sig_name">VCU_BPCAN_VehicleSpeed</key>
+			<key name="factor">0.1</key>
+			<key name="offset">0</key>
+			<key name="cycle">5000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">13</key>
+			<key name="sig_id">2</key>
+			<key name="sig_name">VCU_BPCAN_GearLeverPos_Sts</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">2000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">13</key>
+			<key name="sig_id">3</key>
+			<key name="sig_name">VCU_BPCAN_SystemWarning</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">13</key>
+			<key name="sig_id">4</key>
+			<key name="sig_name">VCU_BPCAN_KeyPosition</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">2000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">13</key>
+			<key name="sig_id">5</key>
+			<key name="sig_name">VCU_BPCAN_Charge_Connect</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">2000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">13</key>
+			<key name="sig_id">6</key>
+			<key name="sig_name">VCU_BPCAN_ReadySts</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">2000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">13</key>
+			<key name="sig_id">7</key>
+			<key name="sig_name">VCU_BPCAN_TM_STATE_AIM_RQ</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">13</key>
+			<key name="sig_id">8</key>
+			<key name="sig_name">VCU_BPCAN_HandBrake_Sts</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">2000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">13</key>
+			<key name="sig_id">9</key>
+			<key name="sig_name">VCU_BPCAN_OutTemp</key>
+			<key name="factor">1</key>
+			<key name="offset">-40</key>
+			<key name="cycle">5000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">13</key>
+			<key name="sig_id">10</key>
+			<key name="sig_name">VCU_BPCAN_HVLock</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">13</key>
+			<key name="sig_id">11</key>
+			<key name="sig_name">VCU_BPCAN_AC_Sts</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">2000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">13</key>
+			<key name="sig_id">12</key>
+			<key name="sig_name">VCU_BPCAN_AC_Heat_Sts</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">2000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">13</key>
+			<key name="sig_id">13</key>
+			<key name="sig_name">VCU_BPCAN_AC_Cool_Sts</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">2000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">13</key>
+			<key name="sig_id">14</key>
+			<key name="sig_name">VCU_BPCAN_LostMCUCOM</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">13</key>
+			<key name="sig_id">15</key>
+			<key name="sig_name">VCU_BPCAN_LostBMSCOM</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">13</key>
+			<key name="sig_id">16</key>
+			<key name="sig_name">VCU_BPCAN_BMSRelay_F</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">13</key>
+			<key name="sig_id">17</key>
+			<key name="sig_name">VCU_BPCAN_MCURelay_F</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">13</key>
+			<key name="sig_id">18</key>
+			<key name="sig_name">VCU_BPCAN_DCDCRelay_F</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">13</key>
+			<key name="sig_id">19</key>
+			<key name="sig_name">VCU_BPCAN_COMPRelay_F</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">13</key>
+			<key name="sig_id">20</key>
+			<key name="sig_name">VCU_BPCAN_LSFANRelay_F</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">13</key>
+			<key name="sig_id">21</key>
+			<key name="sig_name">VCU_BPCAN_HSFANRelay_F</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">13</key>
+			<key name="sig_id">22</key>
+			<key name="sig_name">VCU_BPCAN_PumpRelay_F</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">13</key>
+			<key name="sig_id">23</key>
+			<key name="sig_name">VCU_BPCAN_ChargeRelay_F</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">13</key>
+			<key name="sig_id">39</key>
+			<key name="sig_name">VCU_BreakSysFault</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">13</key>
+			<key name="sig_id">25</key>
+			<key name="sig_name">VCU_DisplayLEDCMD</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">13</key>
+			<key name="sig_id">26</key>
+			<key name="sig_name">VCU_HUWorkMode</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">13</key>
+			<key name="sig_id">27</key>
+			<key name="sig_name">VCU_BPCAN_PowerConsumption</key>
+			<key name="factor">0.1</key>
+			<key name="offset">0</key>
+			<key name="cycle">5000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">13</key>
+			<key name="sig_id">28</key>
+			<key name="sig_name">VCU_BPCAN_Mileage</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">5000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">13</key>
+			<key name="sig_id">29</key>
+			<key name="sig_name">VCU_ALLCAN_AccSW_Valid</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">13</key>
+			<key name="sig_id">30</key>
+			<key name="sig_name">VCU_ALLCAN_AccSW_Sts</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">13</key>
+			<key name="sig_id">31</key>
+			<key name="sig_name">VCU_ALLCAN_AccPedPos_Valid</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">13</key>
+			<key name="sig_id">32</key>
+			<key name="sig_name">VCU_ALLCAN_Reservation_Charge</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">2000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">13</key>
+			<key name="sig_id">33</key>
+			<key name="sig_name">VCU_ALLCAN_AccPed_Pos</key>
+			<key name="factor">0.390625</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">13</key>
+			<key name="sig_id">34</key>
+			<key name="sig_name">VCU_ALLCAN_BrkSw_Valid</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">13</key>
+			<key name="sig_id">35</key>
+			<key name="sig_name">VCU_ALLCAN_BrkSw_Sts</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">13</key>
+			<key name="sig_id">36</key>
+			<key name="sig_name">VCU_ALLCAN_BrkPedPos_Valid</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">13</key>
+			<key name="sig_id">37</key>
+			<key name="sig_name">VCU_ALLCAN_BrkPed_Pos</key>
+			<key name="factor">0.390625</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">12</key>
+			<key name="sig_id">21</key>
+			<key name="sig_name">BCM_CentralLocking_Sts</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">2000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">196</key>
+			<key name="sig_name">BMS_BattCellNum1Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">197</key>
+			<key name="sig_name">BMS_BattCellNum2Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">198</key>
+			<key name="sig_name">BMS_BattCellNum3Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">199</key>
+			<key name="sig_name">BMS_BattCellNum4Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">200</key>
+			<key name="sig_name">BMS_BattCellNum5Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">201</key>
+			<key name="sig_name">BMS_BattCellNum6Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">202</key>
+			<key name="sig_name">BMS_BattCellNum7Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">203</key>
+			<key name="sig_name">BMS_BattCellNum8Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">204</key>
+			<key name="sig_name">BMS_BattCellNum9Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">205</key>
+			<key name="sig_name">BMS_BattCellNum10Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">206</key>
+			<key name="sig_name">BMS_BattCellNum11Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">207</key>
+			<key name="sig_name">BMS_BattCellNum12Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">208</key>
+			<key name="sig_name">BMS_BattCellNum13Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">209</key>
+			<key name="sig_name">BMS_BattCellNum14Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">210</key>
+			<key name="sig_name">BMS_BattCellNum15Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">211</key>
+			<key name="sig_name">BMS_BattCellNum16Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">212</key>
+			<key name="sig_name">BMS_BattCellNum17Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">213</key>
+			<key name="sig_name">BMS_BattCellNum18Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">214</key>
+			<key name="sig_name">BMS_BattCellNum19Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">215</key>
+			<key name="sig_name">BMS_BattCellNum20Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">216</key>
+			<key name="sig_name">BMS_BattCellNum21Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">217</key>
+			<key name="sig_name">BMS_BattCellNum22Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">218</key>
+			<key name="sig_name">BMS_BattCellNum23Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">219</key>
+			<key name="sig_name">BMS_BattCellNum24Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">220</key>
+			<key name="sig_name">BMS_BattCellNum25Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">221</key>
+			<key name="sig_name">BMS_BattCellNum26Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">222</key>
+			<key name="sig_name">BMS_BattCellNum27Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">223</key>
+			<key name="sig_name">BMS_BattCellNum28Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">224</key>
+			<key name="sig_name">BMS_BattCellNum29Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">225</key>
+			<key name="sig_name">BMS_BattCellNum30Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">226</key>
+			<key name="sig_name">BMS_BattCellNum31Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">227</key>
+			<key name="sig_name">BMS_BattCellNum32Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">228</key>
+			<key name="sig_name">BMS_BattCellNum33Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">229</key>
+			<key name="sig_name">BMS_BattCellNum34Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">230</key>
+			<key name="sig_name">BMS_BattCellNum35Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">231</key>
+			<key name="sig_name">BMS_BattCellNum36Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">232</key>
+			<key name="sig_name">BMS_BattCellNum37Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">233</key>
+			<key name="sig_name">BMS_BattCellNum38Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">234</key>
+			<key name="sig_name">BMS_BattCellNum39Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">235</key>
+			<key name="sig_name">BMS_BattCellNum40Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">236</key>
+			<key name="sig_name">BMS_BattCellNum41Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">237</key>
+			<key name="sig_name">BMS_BattCellNum42Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">238</key>
+			<key name="sig_name">BMS_BattCellNum43Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">239</key>
+			<key name="sig_name">BMS_BattCellNum44Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">240</key>
+			<key name="sig_name">BMS_BattCellNum45Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">241</key>
+			<key name="sig_name">BMS_BattCellNum46Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">242</key>
+			<key name="sig_name">BMS_BattCellNum47Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">243</key>
+			<key name="sig_name">BMS_BattCellNum48Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">244</key>
+			<key name="sig_name">BMS_BattCellNum49Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">245</key>
+			<key name="sig_name">BMS_BattCellNum50Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">246</key>
+			<key name="sig_name">BMS_BattCellNum51Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">247</key>
+			<key name="sig_name">BMS_BattCellNum52Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">248</key>
+			<key name="sig_name">BMS_BattCellNum53Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">249</key>
+			<key name="sig_name">BMS_BattCellNum54Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">250</key>
+			<key name="sig_name">BMS_BattCellNum55Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">251</key>
+			<key name="sig_name">BMS_BattCellNum56Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">252</key>
+			<key name="sig_name">BMS_BattCellNum57Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">253</key>
+			<key name="sig_name">BMS_BattCellNum58Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">254</key>
+			<key name="sig_name">BMS_BattCellNum59Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">255</key>
+			<key name="sig_name">BMS_BattCellNum60Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">256</key>
+			<key name="sig_name">BMS_BattCellNum61Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">257</key>
+			<key name="sig_name">BMS_BattCellNum62Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">258</key>
+			<key name="sig_name">BMS_BattCellNum63Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">259</key>
+			<key name="sig_name">BMS_BattCellNum64Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">260</key>
+			<key name="sig_name">BMS_BattCellNum65Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">261</key>
+			<key name="sig_name">BMS_BattCellNum66Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">262</key>
+			<key name="sig_name">BMS_BattCellNum67Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">263</key>
+			<key name="sig_name">BMS_BattCellNum68Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">264</key>
+			<key name="sig_name">BMS_BattCellNum69Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">265</key>
+			<key name="sig_name">BMS_BattCellNum70Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">266</key>
+			<key name="sig_name">BMS_BattCellNum71Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">267</key>
+			<key name="sig_name">BMS_BattCellNum72Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">268</key>
+			<key name="sig_name">BMS_BattCellNum73Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">269</key>
+			<key name="sig_name">BMS_BattCellNum74Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">270</key>
+			<key name="sig_name">BMS_BattCellNum75Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">271</key>
+			<key name="sig_name">BMS_BattCellNum76Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">272</key>
+			<key name="sig_name">BMS_BattCellNum77Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">273</key>
+			<key name="sig_name">BMS_BattCellNum78Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">274</key>
+			<key name="sig_name">BMS_BattCellNum79Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">275</key>
+			<key name="sig_name">BMS_BattCellNum80Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">276</key>
+			<key name="sig_name">BMS_BattCellNum81Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">277</key>
+			<key name="sig_name">BMS_BattCellNum82Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">278</key>
+			<key name="sig_name">BMS_BattCellNum83Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">279</key>
+			<key name="sig_name">BMS_BattCellNum84Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">280</key>
+			<key name="sig_name">BMS_BattCellNum85Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">281</key>
+			<key name="sig_name">BMS_BattCellNum86Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">282</key>
+			<key name="sig_name">BMS_BattCellNum87Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">283</key>
+			<key name="sig_name">BMS_BattCellNum88Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">284</key>
+			<key name="sig_name">BMS_BattCellNum89Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">285</key>
+			<key name="sig_name">BMS_BattCellNum90Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">286</key>
+			<key name="sig_name">BMS_BattCellNum91Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">287</key>
+			<key name="sig_name">BMS_BattCellNum92Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">288</key>
+			<key name="sig_name">BMS_BattCellNum93Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">289</key>
+			<key name="sig_name">BMS_BattCellNum94Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">290</key>
+			<key name="sig_name">BMS_BattCellNum95Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">291</key>
+			<key name="sig_name">BMS_BattCellNum96Vol</key>
+			<key name="factor">1</key>
+			<key name="offset">0</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">292</key>
+			<key name="sig_name">BMS_BattTempSensorNum1</key>
+			<key name="factor">1</key>
+			<key name="offset">-40</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">293</key>
+			<key name="sig_name">BMS_BattTempSensorNum2</key>
+			<key name="factor">1</key>
+			<key name="offset">-40</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">294</key>
+			<key name="sig_name">BMS_BattTempSensorNum3</key>
+			<key name="factor">1</key>
+			<key name="offset">-40</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">295</key>
+			<key name="sig_name">BMS_BattTempSensorNum4</key>
+			<key name="factor">1</key>
+			<key name="offset">-40</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">296</key>
+			<key name="sig_name">BMS_BattTempSensorNum5</key>
+			<key name="factor">1</key>
+			<key name="offset">-40</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">297</key>
+			<key name="sig_name">BMS_BattTempSensorNum6</key>
+			<key name="factor">1</key>
+			<key name="offset">-40</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">298</key>
+			<key name="sig_name">BMS_BattTempSensorNum7</key>
+			<key name="factor">1</key>
+			<key name="offset">-40</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">299</key>
+			<key name="sig_name">BMS_BattTempSensorNum8</key>
+			<key name="factor">1</key>
+			<key name="offset">-40</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">300</key>
+			<key name="sig_name">BMS_BattTempSensorNum9</key>
+			<key name="factor">1</key>
+			<key name="offset">-40</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">301</key>
+			<key name="sig_name">BMS_BattTempSensorNum10</key>
+			<key name="factor">1</key>
+			<key name="offset">-40</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">302</key>
+			<key name="sig_name">BMS_BattTempSensorNum11</key>
+			<key name="factor">1</key>
+			<key name="offset">-40</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">303</key>
+			<key name="sig_name">BMS_BattTempSensorNum12</key>
+			<key name="factor">1</key>
+			<key name="offset">-40</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">304</key>
+			<key name="sig_name">BMS_BattTempSensorNum13</key>
+			<key name="factor">1</key>
+			<key name="offset">-40</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">305</key>
+			<key name="sig_name">BMS_BattTempSensorNum14</key>
+			<key name="factor">1</key>
+			<key name="offset">-40</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">306</key>
+			<key name="sig_name">BMS_BattTempSensorNum15</key>
+			<key name="factor">1</key>
+			<key name="offset">-40</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">307</key>
+			<key name="sig_name">BMS_BattTempSensorNum16</key>
+			<key name="factor">1</key>
+			<key name="offset">-40</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">308</key>
+			<key name="sig_name">BMS_BattTempSensorNum17</key>
+			<key name="factor">1</key>
+			<key name="offset">-40</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">309</key>
+			<key name="sig_name">BMS_BattTempSensorNum18</key>
+			<key name="factor">1</key>
+			<key name="offset">-40</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">310</key>
+			<key name="sig_name">BMS_BattTempSensorNum19</key>
+			<key name="factor">1</key>
+			<key name="offset">-40</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">311</key>
+			<key name="sig_name">BMS_BattTempSensorNum20</key>
+			<key name="factor">1</key>
+			<key name="offset">-40</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">312</key>
+			<key name="sig_name">BMS_BattTempSensorNum21</key>
+			<key name="factor">1</key>
+			<key name="offset">-40</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">313</key>
+			<key name="sig_name">BMS_BattTempSensorNum22</key>
+			<key name="factor">1</key>
+			<key name="offset">-40</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">314</key>
+			<key name="sig_name">BMS_BattTempSensorNum23</key>
+			<key name="factor">1</key>
+			<key name="offset">-40</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">315</key>
+			<key name="sig_name">BMS_BattTempSensorNum24</key>
+			<key name="factor">1</key>
+			<key name="offset">-40</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">316</key>
+			<key name="sig_name">BMS_BattTempSensorNum25</key>
+			<key name="factor">1</key>
+			<key name="offset">-40</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">317</key>
+			<key name="sig_name">BMS_BattTempSensorNum26</key>
+			<key name="factor">1</key>
+			<key name="offset">-40</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">318</key>
+			<key name="sig_name">BMS_BattTempSensorNum27</key>
+			<key name="factor">1</key>
+			<key name="offset">-40</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">319</key>
+			<key name="sig_name">BMS_BattTempSensorNum28</key>
+			<key name="factor">1</key>
+			<key name="offset">-40</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">320</key>
+			<key name="sig_name">BMS_BattTempSensorNum29</key>
+			<key name="factor">1</key>
+			<key name="offset">-40</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">321</key>
+			<key name="sig_name">BMS_BattTempSensorNum30</key>
+			<key name="factor">1</key>
+			<key name="offset">-40</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">322</key>
+			<key name="sig_name">BMS_BattTempSensorNum31</key>
+			<key name="factor">1</key>
+			<key name="offset">-40</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">323</key>
+			<key name="sig_name">BMS_BattTempSensorNum32</key>
+			<key name="factor">1</key>
+			<key name="offset">-40</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">324</key>
+			<key name="sig_name">BMS_BattTempSensorNum33</key>
+			<key name="factor">1</key>
+			<key name="offset">-40</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">325</key>
+			<key name="sig_name">BMS_BattTempSensorNum34</key>
+			<key name="factor">1</key>
+			<key name="offset">-40</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">326</key>
+			<key name="sig_name">BMS_BattTempSensorNum35</key>
+			<key name="factor">1</key>
+			<key name="offset">-40</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">327</key>
+			<key name="sig_name">BMS_BattTempSensorNum36</key>
+			<key name="factor">1</key>
+			<key name="offset">-40</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">328</key>
+			<key name="sig_name">BMS_BattTempSensorNum37</key>
+			<key name="factor">1</key>
+			<key name="offset">-40</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">329</key>
+			<key name="sig_name">BMS_BattTempSensorNum38</key>
+			<key name="factor">1</key>
+			<key name="offset">-40</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">330</key>
+			<key name="sig_name">BMS_BattTempSensorNum39</key>
+			<key name="factor">1</key>
+			<key name="offset">-40</key>
+			<key name="cycle">10000</key>
+</array>
+<array name="sig_info">
+			<key name="ecu_id">3</key>
+			<key name="sig_id">331</key>
+			<key name="sig_name">BMS_BattTempSensorNum40</key>
+			<key name="factor">1</key>
+			<key name="offset">-40</key>
+			<key name="cycle">10000</key>
+</array>
+</cfg_RT_sig_change> 

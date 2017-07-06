@@ -1,0 +1,65 @@
+04-20 09:44:16.987 D/gb_selink( 4299): [4299] port=8128 ip=91142378:120.35.20.145
+04-20 09:44:17.062 D/gb_selink( 4299): [4299]get property persist.sys.le.vin:1G1BL52P7TR759049, len=17
+
+
+04-20 09:44:20.064 D/gb_selink( 4299): [4299]get property persist.sys.le.sim_iccid:, len=0
+04-20 09:44:20.064 D/gb_selink( 4299): [4299] get time=2017:04:20:09:44:20 
+
+
+
+leo@ubuntu:~/date_report$ prebuilts/misc/linux-x86/ccache/ccache prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/arm-linux-androideabi-addr2line -e out/target/product/jacinto6evm/symbols/system/lib/libDataReportInterface.so 0000d259^C
+prebuilts/misc/linux-x86/ccache/ccache prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/arm-linux-androideabi-addr2line -e out/target/product/jacinto6evm/symbols/system/bin/gb
+
+BMS_AlmUC
+HU_TimeSyncData
+BMS_CellTotalNum
+BMS_Temp_ProbeNum
+
+
+04-20 16:11:53.263 D/gb_selink( 5930): [5930] total sig number=321
+04-20 16:11:53.269 D/gb_selink( 5930): [5930] create the socket=5 
+04-20 16:11:53.269 D/gb_selink( 5930): [5930] port=8128:10369 ip=91142378:120.35.20.145
+04-20 16:11:53.397 D/gb_selink( 5930): [5930]get property persist.sys.le.vin:1G1BL52P7TR759049, len=17
+04-20 16:11:53.397 D/gb_selink( 5930): Init the ring buffer successfully
+04-20 16:11:53.397 D/gb_selink( 5930): [5930]connect mcu service begin...
+04-20 16:11:53.398 D/gb_selink( 5930): [5930]connect mcu service end!
+04-20 16:11:53.398 D/gb_selink( 5930): [5930]rc=0 connected to mcu service!
+04-20 16:11:56.398 D/gb_selink( 5930): [5930]get property persist.sys.le.sim_iccid:, len=0
+04-20 16:11:56.399 D/gb_selink( 5930): [5930] get time=2017:04:20:16:11:56 
+04-20 16:11:56.399 D/gb_selink( 5930): [5930] cmd:1, data_len=30, package len=54 check_code=f3, len=55
+04-20 16:11:56.399 D/gb_selink( 5930): [5930] Send the login info successfully, send len=55
+04-20 16:12:03.607 D/gb_selink( 5930): [5930] login action, No response from server.
+04-20 16:12:06.607 D/gb_selink( 5930): [5930] get time=2017:04:20:16:12:06 
+04-20 16:12:06.607 D/gb_selink( 5930): [5930] cmd:1, data_len=30, package len=54 check_code=ca, len=55
+04-20 16:12:06.607 D/gb_selink( 5930): got the pipe signal 13
+04-20 16:12:06.607 D/gb_selink( 5930): [5930] close the inactive the socket 5
+04-20 16:12:06.607 D/gb_selink( 5930): [5930] create the socket=5 
+04-20 16:12:06.607 D/gb_selink( 5930): [5930] port=8128:10369 ip=91142378:120.35.20.145
+04-20 16:12:06.716 D/gb_selink( 5930): [5930] success reconnect new fd =5
+04-20 16:12:06.716 D/gb_selink( 5930): Caught wrong signal: 13
+04-20 16:12:06.716 D/gb_selink( 5930):  
+04-20 16:12:06.716 D/gb_selink( 5930): [5930] Failed to send the package len=55 rc=-1, errno=Broken pipe
+04-20 16:12:09.717 D/gb_selink( 5930): [5930] get time=2017:04:20:16:12:09 
+04-20 16:12:09.717 D/gb_selink( 5930): [5930] cmd:1, data_len=30, package len=54 check_code=c5, len=55
+04-20 16:12:09.717 D/gb_selink( 5930): [5930] Send the login info successfully, send len=55
+04-20 16:12:16.948 D/gb_selink( 5930): [5930] login action, No response from server.
+04-20 16:12:19.948 D/gb_selink( 5930): [5930] Failed to do login action!
+04-20 16:12:19.948 D/gb_selink( 5930): [5930]started second link!
+
+
+
+
+tcpdump -i usb0 -w /data/gb3 port 10369
+
+
+socket:
+    serverAddress: 120.35.20.145
+    port: 10369
+    username: test01
+    password: test123
+
+
+
+
+
+
